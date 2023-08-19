@@ -27,6 +27,13 @@ input{
     letter-spacing: 3px;
 }
 
+#player1{
+    background-color: rgba(94, 255, 0, 0.234);
+}
+#player2{
+    background-color: rgba(255, 0, 0, 0.254);
+}
+
 ::placeholder { /* Most modern browsers support this now. */
     color:    rgb(216, 216, 216);
  }

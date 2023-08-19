@@ -73,7 +73,7 @@ function game(){
 
 function win(){
 winArr = [['0','3','6'], ['1','4','7'], ['2','5','8'], ['0','1','2'], ['3','4','5'], ['6','7','8'], ['0','4','8'],['6','4','2']]
- for(i = 0;i < 7;i++){
+ for(i = 0;i < 8;i++){
     if(winArr[i].every(i => player11.includes(i))){
         const one = document.getElementsByClassName(winArr[i][0])
         const two = document.getElementsByClassName(winArr[i][1])
@@ -188,3 +188,5 @@ function alert(){
         newww
 }
 }
+
+
